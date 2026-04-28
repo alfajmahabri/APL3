@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/slate_900">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- Minimalist Monogram/Logo -->
+        <FrameLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/status_circle"
+            android:backgroundTint="@color/slate_800">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="R"
+                android:textColor="@color/white"
+                android:textSize="32sp"
+                android:fontFamily="sans-serif-black"
+                android:letterSpacing="-0.05" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Registry"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:fontFamily="sans-serif-black"
+            android:letterSpacing="-0.04" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="v1.0.4 CORE"
+            android:textColor="@color/slate_500"
+            android:textSize="10sp"
+            android:fontFamily="sans-serif-black"
+            android:letterSpacing="0.2" />
+
+        <!-- Minimal Loading Line -->
+        <com.lottiefiles.dotlottie.core.widget.DotLottieAnimation
+            android:id="@+id/lottieAnimationView"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="64dp"
+            app:dotLottie_src="https://lottie.host/02f780f2-1d0a-40c6-b7af-41a2c56668b1/9Do3EXSj1E.lottie"
+            app:dotLottie_autoplay="true"
+            app:dotLottie_loop="true"
+            app:dotLottie_speed="1.0" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        android:text="ESTABLISHING SECURE HANDSHAKE"
+        android:textColor="@color/slate_700"
+        android:textSize="9sp"
+        android:fontFamily="sans-serif-black"
+        android:letterSpacing="0.1" />
+
+</RelativeLayout>

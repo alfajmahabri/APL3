@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Monitoring" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Core Colors -->
+        <item name="android:windowBackground">@color/glass_white</item>
+        <item name="android:statusBarColor">@color/glass_white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        
+        <!-- Primary Brand -->
+        <item name="colorPrimary">@color/slate_900</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSurface">@color/glass_surface</item>
+    </style>
+
+    <style name="Theme.Monitoring" parent="Base.Theme.Monitoring" />
+
+    <!-- Specific for Splash to allow full immersion -->
+    <style name="Theme.Monitoring.Splash" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/slate_900</item>
+        <item name="android:statusBarColor">@color/slate_900</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.Monitoring.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Monitoring.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
