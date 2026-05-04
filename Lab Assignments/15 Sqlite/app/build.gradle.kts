@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.ab15.sqlitedatabase"
+    namespace = "com.alfajmahabri.sqlitedatabase"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.ab15.sqlitedatabase"
+        applicationId = "com.alfajmahabri.sqlitedatabase"
         minSdk = 29
         targetSdk = 36
         versionCode = 1

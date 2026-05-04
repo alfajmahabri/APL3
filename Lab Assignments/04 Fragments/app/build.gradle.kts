@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.ab15.app1"
+    namespace = "com.alfajmahabri.app1"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.ab15.app1"
+        applicationId = "com.alfajmahabri.app1"
         minSdk = 29
         targetSdk = 36
         versionCode = 1

@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.ab15.layoutsadv"
+    namespace = "com.alfajmahabri.layoutsadv"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.ab15.layoutsadv"
+        applicationId = "com.alfajmahabri.layoutsadv"
         minSdk = 29
         targetSdk = 36
         versionCode = 1
